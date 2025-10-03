@@ -188,7 +188,7 @@ export default function Home() {
       <main className="container">
         {/* Hero */}
         <section className="hero">
-          <h1>High-Resolution Genomic Karyotyping (RUO)</h1>
+          <h1>High-Resolution Genomic Karyotyping</h1>
           <p className="sub">
             Genome-wide CNV/LOH detection with standardized QC and full raw-data delivery.
           </p>
