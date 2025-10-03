@@ -256,9 +256,6 @@ input[type=number] { -moz-appearance: textfield; appearance: textfield; }
   padding:14px;
   font-size:14px;
 }
-@media (max-width: 980px){
-  .price-box{ position: static; margin-top: 12px; }
-}
 
 .price-box h3{
   margin:0 0 10px; font-size:16px; color:var(--ink-strong);
