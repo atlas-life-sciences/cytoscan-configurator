@@ -121,7 +121,7 @@ body::after {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 24px;     /* balanced for desktop */
+  column-gap: 40px;     /* balanced for desktop */
   row-gap: 14px;
 }
 @media (max-width:760px){ .grid { grid-template-columns: 1fr; } }
@@ -140,8 +140,8 @@ body::after {
 /* Inputs */
 .input, select.input {
   width: 100%;
-  min-height: 38px;           /* sane compact height */
-  padding: 10px 12px;
+  min-height: 4px;           /* sane compact height */
+  padding: 10px 4px;
   border-radius: 8px;
   background: var(--field-bg);
   border: 1px solid var(--field-border);
